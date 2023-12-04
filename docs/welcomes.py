@@ -1,5 +1,8 @@
 ## 변수 선언 후 정의 시 고려점 (넣는 값이 문자 or 숫자)
 # 문자 출력
+
+print("hello, world! gongmyeongyun.") # 상수 / 변화하기가 쉽지 않다.
+
 helloworld = "hello, world! gongmyeongyun." # 문자형 변수
 print(helloworld)
 
