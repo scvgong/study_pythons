@@ -10,7 +10,7 @@ print("{}, {}, {}, {}, {}.".format(one, two, three, four, five))
 one, two = two, one # 1, 0 -> 0, 1 로 변환, 0,1,2,0,3
 print("{}, {}, {}, {}, {}.".format(one, two, three, four, five))
 
-two, three = three, two # 2, 0 -> 2, 0 로 변환 0,2,1,0,3
+two, three = three, two # 1, 2 -> 2, 1 로 변환 0,2,1,0,3
 print("{}, {}, {}, {}, {}.".format(one, two, three, four, five))
 
 three, four = four , three # 1, 0 -> 0, 1 로 변환 0,2,0,1,3
