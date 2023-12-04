@@ -18,3 +18,7 @@ if 5 > 2: #묶음 기호인 : 과 tab은 하나의 쌍
   print("Five is greater than two!")
 print("end")
 
+x = input()
+y = input()
+
+print(x+y)
