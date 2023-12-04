@@ -3,6 +3,7 @@ two = "0"
 three = "2"
 four = "0"
 five = "3"
+
 print("{}, {}, {}, {}, {}.".format(one, two, three, four, five))
 
 one, two = two, one # 1, 0 -> 0, 1 로 변환
