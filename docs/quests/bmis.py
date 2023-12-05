@@ -12,15 +12,15 @@ key, weight = input().split()
 bmi = int(weight) / int(key) ** 2
 
 
-if bmi >= 25  :
+if bmi >= 25  : #25 이상 비만
     pass
-    print("{}은 비만입니다.".format(bmi))
-elif bmi >= 23 :
+    print("{} BMI 수치가 비만입니다.".format(bmi))
+elif bmi >= 23 : # 23-24 과체중
     pass
-    print("{}은 정상입니다.".format(bmi))
-elif bmi >= 18 :
+    print("{} BMI 수치가 과체중입니다.".format(bmi))
+elif bmi >= 18 : # 18-22 정상
     pass
-    print("{}은 과체중입니다.".format(bmi))
-else :
+    print("{} BMI 수치가 정상입니다.".format(bmi))
+else : # 18미만 저체중
     pass
-    print("{}은 저체중입니다.".format(bmi))
+    print("{} BMI 수치가 저체중입니다.".format(bmi))
