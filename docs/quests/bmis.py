@@ -7,8 +7,9 @@
 # 23-24 : 과체중
 # 25 이상 : 비만
 
-# 변수
+# 변수 키, 몸무게 입력
 key, weight = input().split()
+# BMI 연산
 bmi = int(weight) / int(key) ** 2
 
 
