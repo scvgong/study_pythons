@@ -3,7 +3,7 @@
 # 예. 5 * 1= 5  5 * 2 = 10 ... 5 * 9 = 45
 # - option) 단수 입력 받아 연산
 
-gugu = input()
+gugu = int(input("구구단 숫자를 입력하세요 : "))
 num = 0
 
 while num < 9:
