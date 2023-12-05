@@ -7,7 +7,8 @@
 # 출력
 ## 첫째 줄에 A+B를 출력한다.
 
-user_input_one = int(input())
-user_input_two = int(input())
+a,b = input().split()
+num1 = int(a)
+num2 = int(b)
 
-print(user_input_one + user_input_two)
+print(num1 + num2)
