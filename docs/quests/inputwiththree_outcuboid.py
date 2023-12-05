@@ -3,11 +3,16 @@
 # output = 가로(4)m * 세로(1)m * 높이(1)m = 직육면체(4)m^3
 
 
+# 입력받을 변수 지정
+# width = input()
+# length = input()
+# height = input()
 
-width = input()
-length = input()
-height = input()
+# 입력받을 변수 지정 -> 한줄 요약
+width, length, height = input().split()
 
+
+# type 변환
 w = int(width)
 l = int(length)
 h = int(height)
