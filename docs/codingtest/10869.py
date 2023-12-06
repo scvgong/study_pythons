@@ -13,7 +13,7 @@ num2 = int(b)
 c = num1 + num2
 d = num1 - num2
 e = num1 * num2
-f = num1 / num2
+f = num1 // num2
 g = num1 % num2
 
 
