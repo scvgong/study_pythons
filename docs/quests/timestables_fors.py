@@ -5,17 +5,17 @@
 
 # 5단
 gugu = 5
-num = [1,2,3,4,5,6,7,8,9]
+list_num = [1,2,3,4,5,6,7,8,9]
 
-for gugu_num in num:
+for list_gugu in list_num:
     pass
-    print("5단 : {} * {} = {}".format(gugu,gugu_num,(gugu * gugu_num)))
+    print("5단 : {} * {} = {}".format(gugu,list_gugu,(gugu * list_gugu)))
 
 
 # 입력받아서 하기
 gugu = int(input("구구단 숫자를 입력하세요 : "))
-num = num = [1,2,3,4,5,6,7,8,9]
+list_num = [1,2,3,4,5,6,7,8,9]
 
-for gugu_num in num:
+for list_gugu in list_num:
     pass
-    print("{} * {} = {}".format(gugu,gugu_num,(gugu * gugu_num)))
+    print("{} * {} = {}".format(gugu,list_gugu,(gugu * list_gugu)))
