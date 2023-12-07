@@ -1,6 +1,6 @@
 # 기본 function 형식 - 특징 : 기다림, 불러올때 가능한다.
-def function() : 
-  pass
+def function_name() : 
+  pass      # 내용 넣기
   return 0
 #################
 
@@ -8,6 +8,7 @@ def function() :
 def my_function():
   print("Hello from a function")
 
+# my_function 부르기
 my_function()
 pass
 
@@ -20,5 +21,5 @@ def print_question_and_answer():
     print(answer)
     return 0
 
-print_question_and_answer()
-print_question_and_answer()
+# print_question_and_answer()
+# print_question_and_answer()
