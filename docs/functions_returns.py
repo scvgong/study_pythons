@@ -39,3 +39,39 @@ def return_list() :
   return list_fruits
 
 print("return_list() return value : {}".format(return_list()))
+
+# list 중에 index로 값 return
+def return_listbyindex() : 
+  list_fruits = ["melon","apple", "banana", "cherry"]
+  # index로 값 가져오기
+  return list_fruits[0]  # 단일 변수로 여김 1차원(행)
+
+print("return_listbyindex() return result : {}".format(return_listbyindex()))
+
+# my_score = 79
+
+# if my_score >= 90 :     # 90점 이상 : A
+#     print("{}은 90점 이상으로 A학점".format(my_score))
+# elif my_score > 80 :    # 80점 초과 : B
+#     print("{}은 80점 초과로 B학점".format(my_score))
+# else :                  # 나머지는 : F
+#     print("{}은 80점 이하으로 F학점".format(my_score))
+
+# 목표 : 반복적인 print 작업을 줄이기 위한 functions 만들기
+def return_grade() : 
+  my_score = 79
+  my_grade = ''
+  if my_score >= 90 :     # 90점 이상 : A
+    my_grade = 'A'
+    pass
+  elif my_score > 80 :    # 80점 초과 : B
+    my_grade = 'B'
+    pass
+  else :                  # 나머지는 : F
+    my_grade = 'F'
+    pass
+  # return_listbyindex()
+  return my_grade
+
+str_grade = return_grade()
+print("당신의 학점 : {}".format(str_grade))
