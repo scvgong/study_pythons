@@ -2,8 +2,9 @@
 # 'q' 입력시 종료
 # function 2개 사용
 
-# 필요한 function = 연산 function, 종료 functions
-# 변수 : 입력받을 2개의 숫자, 연산결과, q입력 변수, q 입력시 종료
+# 필요한 function = 연산/조건 function, 메인 functions
+# 변수 : 입력받을 2개의 숫자
+# 조건 : 문자/숫자 유무 판단, 'q' 입력시 종료, 숫자일시 계산
 
 
 def in_cal():
@@ -24,7 +25,7 @@ def in_cal():
     return 
 
 def main():
-    print("곱셈 수학 계산기")
+    print("계산기")
     print("계산 종료하려면 q 버튼 누르기")
     result = in_cal()
     return
