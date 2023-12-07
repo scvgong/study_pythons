@@ -5,24 +5,28 @@
 # 필요한 function = 연산 function, 종료 functions
 # 변수 : 입력받을 2개의 숫자, 연산결과, q입력 변수, q 입력시 종료
 
-# 반복 계산 함수
-def return_cal():    
-    while True :
-        cal_first,cal_second = input().split()
 
-        result = int(cal_first) * int(cal_second)
-        print("{} * {} = {}".format(cal_first, cal_second, result))
+def in_cal():
+    while True:
+        cal_num1 = input("첫번째 숫자 입력 : ")
+        cal_num2 = input("두번째 숫자 입력 : ")
+        
+        if cal_num1 == "q" or cal_num2 == "q": # 특정코드 'q' 입력시 종료
+            print("프로그램을 종료합니다")
+            break
+        elif cal_num1.isalpha() or cal_num2.isalpha() : # 문자일시 재입력
+            print("재입력 바랍니다.")
+            continue
+        elif cal_num1.isdigit() and cal_num2.isdigit() : # 숫자일시 계산
+            result = int(cal_num1) * int(cal_num2)
+            print("{} * {} = {}".format(cal_num1,cal_num2,result))
+            # pass
+    return 
 
-    return True
+def main():
+    print("곱셈 수학 계산기")
+    print("계산 종료하려면 q 버튼 누르기")
+    result = in_cal()
+    return
 
-
-
-# 버튼 입력시 종료 코드
-push_str = input()
-
-if push_str != 'q':
-    print(return_cal())
-elif push_str == 'q':
-    pass
-else :
-    exit()
+main()
