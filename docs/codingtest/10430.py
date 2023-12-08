@@ -12,10 +12,13 @@
 
 #입력예제 : 5 8 4 출력예제 : 1 1 0 0
 
-a, b, c = input(int()).split()
+a, b, c = input().split()
+num1 = int(a)
+num2 = int(b)
+num3 = int(c)
 
-print((a+b)%c)
-print((a%b)+(b%c))
-print((a*b)%c)
-print(((a%c)*(b*c))%c)
+print(((num1+num2)%num3))
+print(((num1%num3)+(num2%num3))%num3)
+print((num1*num2)%num3)
+print(((num1%num3)*(num2%num3))%num3)
 
