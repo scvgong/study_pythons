@@ -21,9 +21,11 @@ class Arithmetic:
         result = first / second
         pass
         return result
-    
+
+a = int(input("첫 번째 숫자 : "))
+b = int(input("두 번째 숫자 : "))
 arithmetics = Arithmetic()
-print("덧셈 : ",arithmetics.sum(7,6))
-print("뺄셈 : ",arithmetics.sub(7,6))
-print("곱셈 : ",arithmetics.multi(7,6))
-print("나눗셈 : ",arithmetics.div(7,6))
+print("덧셈 : ",arithmetics.sum(a,b))
+print("뺄셈 : ",arithmetics.sub(a,b))
+print("곱셈 : ",arithmetics.multi(a,b))
+print("나눗셈 : ",arithmetics.div(a,b))
