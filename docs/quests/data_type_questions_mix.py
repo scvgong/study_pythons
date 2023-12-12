@@ -15,7 +15,7 @@ def question():
             pass
         pass
             
-            
+        # correct, score 입력            
         correct = int(input("correct_index : "))
         score = int(input("score : "))
 
