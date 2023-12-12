@@ -53,6 +53,7 @@ dict_carinfor_index_first = list_carinfor[0]
 dict_carinfor_index_first['model']
 pass
 list_carinfor[0]['model'] # 앞서 한번 []접근하고 이후에 []접근
+print(list_carinfor[0]['model'])
 pass
 
 # for로 각 dict 정보 출력
