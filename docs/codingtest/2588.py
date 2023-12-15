@@ -13,11 +13,10 @@
 
 # 1의 자리 연산 , 10의 자리 연산, 100의 자리 연산
 
-a, b = input().split()
+a = int(input())
+b = int(input())
 
-num1 = int(a)
-num2 = int(b)
-
-result = num1 * num2
-
-print(result)
+print(a*(b%10))
+print(a*((b//10)%10))
+print(a*((b//100)%10))
+print(a*b)
