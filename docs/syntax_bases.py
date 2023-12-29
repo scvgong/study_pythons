@@ -33,3 +33,4 @@ if __name__ == "__main__":
         pass    # 업무코드 문제 발생 시 대처코드,여러줄(코드) 삽입 가능
     finally:
         pass    # try나 except이 끝난 후 무조건 실행 코드
+
