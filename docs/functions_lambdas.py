@@ -1,12 +1,21 @@
+# 기존문법을 압축된 방식으로 구현
+# for, if
+# lambda
+# (lambda param: param + 2)
+# (lambda param: param + 2)(param)
+
+def function_name(param):
+    pass
+    return 0
+
 # 압축된 for문 적용
 numberics = [0, 1, 2, 3, 4]      # 5개수 값으로 이루어진 리스트
-numberics_list = []     # numberics + 2 ==> [2,3,4,5,6]
-for number in numberics :
-    result = number + 2
-    numberics_list.append(result)
-    pass
-print(numberics_list)
-
 print([number+2 for number in numberics])
 pass
-    
+print([(lambda param: param + 2)(number) for number in numberics])
+pass
+
+# 각 숫자의 제곱을 계산
+numbers = [1, 2, 3, 4, 5]
+squared = map(lambda x: x**2, numbers)
+print(list(squared))  # [1, 4, 9, 16, 25]
