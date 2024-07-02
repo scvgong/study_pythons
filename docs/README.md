@@ -1,4 +1,4 @@
-# Python
+# Python Study
 
 ### Beginner Function
 | 분류 | 설명 | 비고 |
@@ -17,3 +17,11 @@
 | [Data Types](https://www.w3schools.com/python/python_datatypes.asp) | ..., range, NoneType, [Tuple...](https://www.w3schools.com/python/python_tuples.asp), [Set...](https://www.w3schools.com/python/python_sets.asp) | -- |
 | [Iterators](https://www.w3schools.com/python/python_iterators.asp) | -- | -- |
 | Functions | [Functions](https://www.w3schools.com/python/python_functions.asp), [Lambda](https://www.w3schools.com/python/python_lambda.asp) | -- |
+
+### Advanced Function
+| 분류 | 설명 | 비고 |
+| --- | --- | --- |
+| Classes and Inheritance | [Classes](https://www.w3schools.com/python/python_classes.asp), [Inheritance](https://www.w3schools.com/python/python_inheritance.asp), [Polymorphism](https://www.w3schools.com/python/python_polymorphism.asp) | -- |
+| [Modules](https://www.w3schools.com/python/python_modules.asp) | -- | -- |
+| [Try Except](https://www.w3schools.com/python/python_try_except.asp) | -- | -- |
+| [RegEx](https://www.w3schools.com/python/python_regex.asp) | -- | -- |
